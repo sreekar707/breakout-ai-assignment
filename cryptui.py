@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime
 
 def fetch_crypto_data(asset_id, start_date, end_date):
     # Convert dates to timestamps
